@@ -121,8 +121,8 @@ podDisruptionBudget:
 
 # -- Generates `remoteWrite.*` flags and config maps with value content for values, that are of type list of map.
 # Each item should contain `url` param to pass validation.
-remoteWrite: []
-- url: http://victoriametrics.vmstack.svc.cluster.local:8428/api/v1/write
+remoteWrite:
+  - url: http://victoriametrics.vmstack.svc.cluster.local:8428/api/v1/write
 #   urlRelabelConfig:
 #     - action: keep
 #       source_labels: [env]
