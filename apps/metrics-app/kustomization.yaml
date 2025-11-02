@@ -1,5 +1,4 @@
 resources:
-  - app.yaml
   - deployment.yaml
   - service.yaml
   - servicemonitor.yaml
