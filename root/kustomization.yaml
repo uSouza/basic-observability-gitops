@@ -1,3 +1,4 @@
 resources:
   - ../apps/prometheus-stack
   - ../apps/metrics-app
+  - ../apps/victoriametrics-single
